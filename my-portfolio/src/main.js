@@ -1,9 +1,11 @@
-import { createApp } from 'vue';  // Import createApp from Vue 3
-import App from './App.vue';  // Import your App.vue
-import router from './router';  // Import your router configuration
+import { createApp } from 'vue';
+import PrimeVue from 'primevue/config';
+import App from './App.vue';
+import router from './router';
+import './assets/styles/global.css';
 
-// Create the app and use the router
 const app = createApp(App);
+app.use(PrimeVue, {
 
-app.use(router);  // Use the router with the app
-app.mount('#app');  // Mount the app to the div with id 'app'
+});app.use(router);
+app.mount('#app');

@@ -2,15 +2,13 @@
   <div class="container">
     <h1>Gallery</h1>
     <div class="grid">
-      <!-- Display gallery art -->
       <div class="tile" v-for="art in galleryArt" :key="art.id" @click="openArt(art)">
         <img :src="art.src" :alt="art.title" />
       </div>
     </div>
 
-    <!-- Overlay for enlarged art -->
     <div v-if="selectedArt" class="overlay" @click="closeArt">
-      <div class="overlay-content" @click.stop>
+      <div class="overlay-content">
         <img :src="selectedArt.src" :alt="selectedArt.title" />
         <div class="description">{{ selectedArt.description }}</div>
       </div>
@@ -44,7 +42,6 @@ export default {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .tile {
@@ -56,11 +53,6 @@ export default {
 .tile img {
   width: 100%;
   border-radius: 10px;
-  transition: transform 0.2s ease;
-}
-
-.tile img:hover {
-  transform: scale(1.05);
 }
 
 .overlay {
@@ -73,7 +65,6 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: fadeIn 0.3s ease;
 }
 
 .overlay-content {
@@ -82,35 +73,9 @@ export default {
   border-radius: 10px;
   display: flex;
   align-items: center;
-  max-width: 80%;
 }
 
 .description {
   margin-left: 20px;
-  color: #333;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@media (max-width: 600px) {
-  .tile {
-    width: 150px;
-  }
-
-  .overlay-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .description {
-    margin: 10px 0 0 0;
-  }
 }
 </style>
