@@ -1,6 +1,17 @@
 <template>
   <div class="container">
-    <h1>Gallery</h1>
+    <h1>Art Dump</h1>
+    <Card class="title-card" :class="cardThemeToggle">
+      <template #title>
+        <p class="m-0">
+            This is collections of all my pixel art. You can click them to see more about them.
+        </p>
+        <p class="m-0">
+            All high definition version of my work are avalible for download on my Ko-fi page. Feel free to use them for non-commercial use.
+        </p>
+      </template>
+    </Card>
+
     <div class="grid">
       <div class="tile" v-for="art in galleryArt" :key="art.id" @click="openArt(art)">
         <img :src="art.src" :alt="art.title" />
@@ -8,7 +19,7 @@
     </div>
 
     <div v-if="selectedArt" class="overlay" @click="closeArt">
-      <div class="overlay-content">
+      <div class="overlay-content" :class="descriptionThemeToggle">
         <img :src="selectedArt.src" :alt="selectedArt.title" />
         <div class="description">{{ selectedArt.description }}</div>
       </div>
@@ -17,15 +28,28 @@
 </template>
 
 <script>
+import Card from 'primevue/card';
 export default {
   data() {
     return {
       galleryArt: [
-        { id: 1, title: 'Art 1', src: 'path_to_art1.jpg', description: 'Description of Art 1' },
-        { id: 2, title: 'Art 2', src: 'path_to_art2.jpg', description: 'Description of Art 2' }
+        { id: 1, title: 'Occult Warfare', src: require('@/assets/artwork/occult.png'), description: 'Occult Warfare' },
+        { id: 2, title: 'Occult Warfare', src: require('@/assets/artwork/occult.png'), description: 'Occult Warfare' }
       ],
       selectedArt: null
     };
+  },
+  components: {
+    Card,
+  },
+  computed: {
+    cardThemeToggle() {
+      return this.$root.theme === 'dark-mode' ? 'dark-card' : 'light-card';
+    },
+
+    descriptionThemeToggle() {
+      return this.$root.theme === 'dark-mode' ? 'dark-description' : 'light-description';
+    }
   },
   methods: {
     openArt(art) {
@@ -39,6 +63,34 @@ export default {
 </script>
 
 <style scoped>
+
+.light-card {
+  background-color: #e2c492;
+  color: #000000;
+}
+
+.dark-card {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.light-description {
+  background-color: #f7e6b0;
+  color: #333333;
+}
+
+.dark-description {
+  background-color: #444444;
+  color: #ffffff;
+}
+
+.title-card {
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -61,14 +113,12 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .overlay-content {
-  background: white;
   padding: 20px;
   border-radius: 10px;
   display: flex;

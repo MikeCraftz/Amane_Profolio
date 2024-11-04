@@ -4,7 +4,7 @@
     font-style: normal;
   }
   
-  .ibm-plex-mono-extralight {
+.ibm-plex-mono-extralight {
     font-family: "IBM Plex Mono", serif;
     font-weight: 200;
     font-style: normal;
@@ -98,7 +98,7 @@
   }
 
   .p-menubar-item {
-    margin-right: 20px;
+    margin-right: 5px;
     padding: 5px;
   }
 

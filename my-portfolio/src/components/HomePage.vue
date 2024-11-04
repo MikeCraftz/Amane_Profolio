@@ -12,7 +12,9 @@
     <p></p>
 
     <Card class="title-card" :class="cardThemeToggle">
-      <template #title>Michael Chow (@AmanetateC)</template>
+      <template #title>
+        <h3 style="text-decoration: underline;">Michael Chow (@AmanetateC)</h3>
+      </template>
         <template #content>
         <p class="m-0">
             Automation Engineer / Pixel Artist / Indie Game Dev
@@ -20,24 +22,50 @@
         <p class="m-0">
           Hello, I am a full time automation engineer, pixel artist and indie game dev based in Japan!
         </p>
+        <p class="m-0">
+          Support my work on Kofi:
+        </p>
+        <a href='https://ko-fi.com/O5O612VEJU' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
       </template>
     </Card>
 
     <p></p>
 
     <Card class="title-card" :class="cardThemeToggle">
-      <template #title>Social Media</template>
+      <template #title>
+        <h3 style="text-decoration: underline;">Social Media</h3>
+      </template>
         <template #content>
-          <Button as="a" label="Ko-fi" href="https://vuejs.org/" target="_blank" iconPos="left" rel="noopener">
-            <template #icon>
-              <img src="@/assets/icon.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
-            </template>
-          </Button>
-            <li class="p-list-item"> Ko-fi</li>
-            <li class="p-list-item"> Twitter/X</li>
-            <li class="p-list-item"> Instagram</li>
-            <li class="p-list-item"> Pixiv</li>
-            <li class="p-list-item"> Itch.io</li>
+          <ul class="custom-lists">
+            <li>
+              <Button as="a" label="Ko-fi: @amanettc" href="https://ko-fi.com/amanettc" target="_blank" iconPos="left" rel="noopener">
+                <template #icon>
+                  <img src="@/assets/icon.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
+                </template>
+              </Button>
+            </li>
+            <li>
+              <Button as="a" label="Twitter/X: @amanetate10945 " href="https://x.com/amanetate10945" target="_blank" iconPos="left" rel="noopener">
+                <template #icon>
+                  <img src="@/assets/icon.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
+                </template>
+              </Button>
+            </li>
+            <li>
+              <Button as="a" label="Instagram: amanetatec" href="https://www.instagram.com/amanetatec/" target="_blank" iconPos="left" rel="noopener">
+                <template #icon>
+                  <img src="@/assets/icon.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
+                </template>
+              </Button>
+            </li>
+            <li>
+              <Button as="a" label="GitHub: MikeCraftz" href="https://github.com/MikeCraftz" target="_blank" iconPos="left" rel="noopener">
+                <template #icon>
+                  <img src="@/assets/icon.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
+                </template>
+              </Button>
+            </li>
+          </ul>
       </template>
     </Card>
 
@@ -46,7 +74,6 @@
       <p>Recesses</p>
       <p>Let's feed Yanami!</p>
     </div>
-    <a href='https://ko-fi.com/O5O612VEJU' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi6.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
     <div class="section">
       <h2>Featured Art</h2>
       <div class="tiles-grid">
@@ -64,8 +91,8 @@ export default {
   data() {
     return {
       featuredArt: [
-        { id: 1, title: 'Art 1', src: 'path_to_art1.jpg' },
-        { id: 2, title: 'Art 2', src: 'path_to_art2.jpg' }
+        { id: 1, title: 'Occult Warfare', src: require('@/assets/artwork/occult.png') },
+        { id: 2, title: 'Occult Warfare', src: require('@/assets/artwork/occult.png') }
       ]
     };
   },
@@ -91,9 +118,9 @@ export default {
 </script>
 
 <style scoped>
-/* TODO: Update card dark/light mode colour */
+
 .light-card {
-  background-color: #ffffff;
+  background-color: #e2c492;
   color: #000000;
 }
 
@@ -130,5 +157,14 @@ export default {
     height: 24px;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.custom-lists {
+  list-style-type: none;
+  padding: 0;
+}
+
+.custom-lists li {
+  margin-bottom: 1rem;
 }
 </style>
