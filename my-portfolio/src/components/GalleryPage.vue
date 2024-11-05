@@ -18,26 +18,39 @@
       </div>
     </div>
 
-    <div v-if="selectedArt" class="overlay" @click="handleOverlayClick">
-      <div class="overlay-content" :class="descriptionThemeToggle">
-        <img :src="selectedArt.src" :alt="selectedArt.title" />
-        <div class="description">{{ selectedArt.description }}</div>
-      </div>
+    <div v-if="selectedArt" class="overlay" @click="closeArt">
+
+    <Card class="overlay-content" :class="cardThemeToggle" @click.stop>
+    <template #header>
+      <img :src="selectedArt.src" />
+    </template>
+    <template #content>
+        <p class="description">
+          {{ selectedArt.description }}
+        </p>
+    </template>
+    </Card>
+
     </div>
   </div>
 </template>
 
 <script>
 import Card from 'primevue/card';
+import galleryData from '@/assets/artwork_list.json';
+
 export default {
   data() {
     return {
-      galleryArt: [
-        { id: 1, title: 'Occult Warfare', src: require('@/assets/artwork/occult.png'), description: 'Occult Warfare' },
-        { id: 2, title: 'Occult Warfare', src: require('@/assets/artwork/occult.png'), description: 'Occult Warfare' }
-      ],
+      galleryArt: [],
       selectedArt: null
     };
+  },
+  mounted() {
+    this.galleryArt = galleryData.map(art => ({
+      ...art,
+      src: require(`@/assets/artwork/${art.src.split('/').pop()}`)
+    }));
   },
   components: {
     Card,
@@ -114,6 +127,7 @@ export default {
 
 .overlay {
   position: fixed;
+  z-index: 1001;
   top: 0;
   left: 0;
   width: 100%;
@@ -121,16 +135,33 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
 }
 
 .overlay-content {
-  padding: 20px;
+  max-width: 90%;
+  max-height: 90%;
+  padding: 10px;
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  overflow: hidden;
+}
+
+.overlay-content img {
+  max-width: 100%;
+  height: auto;
 }
 
 .description {
-  margin-left: 20px;
+  margin-top: 10px;
+  text-align: center;
+  max-height: 150px;
+  overflow-y: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
 }
 </style>
