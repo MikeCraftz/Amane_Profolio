@@ -18,7 +18,7 @@
       </div>
     </div>
 
-    <div v-if="selectedArt" class="overlay" @click="closeArt">
+    <div v-if="selectedArt" class="overlay" @click="handleOverlayClick">
       <div class="overlay-content" :class="descriptionThemeToggle">
         <img :src="selectedArt.src" :alt="selectedArt.title" />
         <div class="description">{{ selectedArt.description }}</div>
@@ -57,7 +57,12 @@ export default {
     },
     closeArt() {
       this.selectedArt = null;
+    },
+    handleOverlayClick(event) {
+      if (event.target.classList.contains('overlay')) {
+        this.closeArt();
     }
+  }
   }
 };
 </script>
