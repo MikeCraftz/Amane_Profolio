@@ -40,28 +40,29 @@
             <li>
               <Button as="a" label="Ko-fi: @amanettc" href="https://ko-fi.com/amanettc" target="_blank" iconPos="left" rel="noopener">
                 <template #icon>
-                  <img src="@/assets/icon.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
+                  <img src="@/assets/icon/ko-fi.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
                 </template>
               </Button>
             </li>
             <li>
               <Button as="a" label="Twitter/X: @amanetate10945 " href="https://x.com/amanetate10945" target="_blank" iconPos="left" rel="noopener">
                 <template #icon>
-                  <img src="@/assets/icon.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
+                  <img src="@/assets/icon/twitter.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
+                  <img src="@/assets/icon/x.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
                 </template>
               </Button>
             </li>
             <li>
               <Button as="a" label="Instagram: amanetatec" href="https://www.instagram.com/amanetatec/" target="_blank" iconPos="left" rel="noopener">
                 <template #icon>
-                  <img src="@/assets/icon.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
+                  <img src="@/assets/icon/instagram.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
                 </template>
               </Button>
             </li>
             <li>
               <Button as="a" label="GitHub: MikeCraftz" href="https://github.com/MikeCraftz" target="_blank" iconPos="left" rel="noopener">
                 <template #icon>
-                  <img src="@/assets/icon.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
+                  <img src="@/assets/icon/github.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
                 </template>
               </Button>
             </li>

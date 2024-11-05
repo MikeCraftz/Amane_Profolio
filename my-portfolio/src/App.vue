@@ -17,13 +17,12 @@
       </li>
       <li>
         <Button @click="toggleTheme" class="menu-button">
-          <template #icon>
-            <img src="@/assets/icon.png" alt="Logo" style="width: 24px; margin-right: 0.5rem;" />
-          </template>
+          <img :src="themeIcon" alt="Theme Icon" style="width: 36px; margin-right: 0.5rem;" />
         </Button>
       </li>
     </ul>
   </div>
+
   <div class="app-container">
     <div>
       <p></p>
@@ -34,29 +33,18 @@
 
 <script>
 import Button from 'primevue/button';
+
 export default {
   data() {
     return {
-       theme: localStorage.getItem('theme') || 'light-mode',
-      items: [
-        {
-          label: 'Home',
-          command: () => {
-            this.$router.push('/');
-          }
-        },
-        {
-          label: 'Art Dump',
-          command: () => {
-            this.$router.push('/gallery');
-          }
-        }
-      ]
+      theme: localStorage.getItem('theme') || 'light-mode',
     };
   },
   computed: {
-    menuBarThemeToggle() {
-      return this.$root.theme === 'dark-mode' ? 'dark-menu' : 'light-menu';
+    themeIcon() {
+      return this.theme === 'dark-mode'
+        ? require("@/assets/icon/darkmode.png")
+        : require("@/assets/icon/lightmode.png");
     }
   },
   components: {
@@ -67,10 +55,10 @@ export default {
   },
   methods: {
     goToHome() {
-    this.$router.push('/');
+      this.$router.push('/');
     },
     goToGallery() {
-    this.$router.push('/gallery');
+      this.$router.push('/gallery');
     },
     toggleTheme() {
       this.theme = this.theme === 'light-mode' ? 'dark-mode' : 'light-mode';
