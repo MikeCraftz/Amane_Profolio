@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router';
 import HomePage from '../components/HomePage.vue';
 import GalleryPage from '../components/GalleryPage.vue';
 
@@ -8,7 +8,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory('/Amane_Profolio/'),
   routes
 });
 
