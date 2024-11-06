@@ -1,24 +1,14 @@
-# my-portfolio
+# My Profolio
 
-## Project setup
-```
-npm install
-```
+## Description
+This is a profolio website that I dump all my pixel art. I also list out my indie game project here, together with all my social media link.
+You can visit this site at:
+https://mikecraftz.github.io/Amane_Profolio/
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Framework
+Build by vue+primevue as the UI library. Hosted using github page.
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## TODO
+- List out itch.io games
+- Upload all my art
+    - Art are loaded in json format at ``` assets/artwork_list.json```
