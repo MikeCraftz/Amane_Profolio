@@ -1,7 +1,8 @@
-import { defineConfig } from 'vite';
-import vue from '@vitejs/plugin-vue';
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  transpileDependencies: true
+})
 
-export default defineConfig({
-  plugins: [vue()],
-  base: './'
-});
+module.exports = {
+  publicPath: process.env.NODE_ENV === 'production' ? '/Amane_Profolio/' : '/'
+};
