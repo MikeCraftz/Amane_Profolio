@@ -111,7 +111,7 @@ export default {
     return {
       featuredArt: [
         { id: 1, title: 'Occult Warfare', src: require('@/assets/artwork/occult.png') },
-        { id: 2, title: 'Occult Warfare', src: require('@/assets/artwork/occult.png') }
+        { id: 2, title: 'Occult Warfare', src: require('@/assets/artwork/trauma2.png') }
       ]
     };
   },
