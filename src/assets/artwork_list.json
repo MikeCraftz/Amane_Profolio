@@ -3,5 +3,510 @@
         "id": 1,
         "src": "@/assets/artwork/occult.png",
         "description": "Occult Warfare"
+    },
+    {
+        "id": 2,
+        "src": "@/assets/artwork/trauma2.png",
+        "description": "Trauma Team International, Fan art of Cyberpunk 2077"
+    },
+    {
+        "id": 3,
+        "src": "@/assets/artwork/trauma1.webp",
+        "description": "Trauma Team International, Fan art of Cyberpunk 2077"
+    },
+    {
+        "id": 4,
+        "src": "@/assets/artwork/lestweforget.gif",
+        "description": "Lest We Forget"
+    },
+    {
+        "id": 5,
+        "src": "@/assets/artwork/stalkerguns.png",
+        "description": "Stalker Guns"
+    },
+    {
+        "id": 6,
+        "src": "@/assets/artwork/teshima.png",
+        "description": "Teshima Artwork"
+    },
+    {
+        "id": 7,
+        "src": "@/assets/artwork/Ankunft.png",
+        "description": "Ankunft"
+    },
+    {
+        "id": 8,
+        "src": "@/assets/artwork/star_armour.png",
+        "description": "Star Armour"
+    },
+    {
+        "id": 9,
+        "src": "@/assets/artwork/l1a1.gif",
+        "description": "L1A1 Rifle Animation"
+    },
+    {
+        "id": 10,
+        "src": "@/assets/artwork/yamada.png",
+        "description": "Yamada Character Art"
+    },
+    {
+        "id": 11,
+        "src": "@/assets/artwork/galaxy.png",
+        "description": "Galaxy Scene"
+    },
+    {
+        "id": 12,
+        "src": "@/assets/artwork/otter.png",
+        "description": "Cute Otter"
+    },
+    {
+        "id": 13,
+        "src": "@/assets/artwork/shaman.gif",
+        "description": "Shaman Animation"
+    },
+    {
+        "id": 14,
+        "src": "@/assets/artwork/staccato.png",
+        "description": "Staccato Artwork"
+    },
+    {
+        "id": 15,
+        "src": "@/assets/artwork/Usuzumi.png",
+        "description": "Usuzumi Character Art"
+    },
+    {
+        "id": 16,
+        "src": "@/assets/artwork/admin.webp",
+        "description": "Admin Artwork"
+    },
+    {
+        "id": 17,
+        "src": "@/assets/artwork/police2.png",
+        "description": "Police Artwork 2"
+    },
+    {
+        "id": 18,
+        "src": "@/assets/artwork/police1.webp",
+        "description": "Police Artwork 1"
+    },
+    {
+        "id": 19,
+        "src": "@/assets/artwork/renk.png",
+        "description": "Renk Artwork"
+    },
+    {
+        "id": 20,
+        "src": "@/assets/artwork/vendetta.png",
+        "description": "Vendetta Artwork"
+    },
+    {
+        "id": 21,
+        "src": "@/assets/artwork/vendetta1.gif",
+        "description": "Vendetta Animation 1"
+    },
+    {
+        "id": 22,
+        "src": "@/assets/artwork/vendetta10.gif",
+        "description": "Vendetta Animation 10"
+    },
+    {
+        "id": 23,
+        "src": "@/assets/artwork/vendetta11.jpg",
+        "description": "Vendetta Image 11"
+    },
+    {
+        "id": 24,
+        "src": "@/assets/artwork/vendetta2.png",
+        "description": "Vendetta Image 2"
+    },
+    {
+        "id": 25,
+        "src": "@/assets/artwork/vendetta3.png",
+        "description": "Vendetta Image 3"
+    },
+    {
+        "id": 26,
+        "src": "@/assets/artwork/vendetta4.png",
+        "description": "Vendetta Image 4"
+    },
+    {
+        "id": 27,
+        "src": "@/assets/artwork/vendetta5.png",
+        "description": "Vendetta Image 5"
+    },
+    {
+        "id": 28,
+        "src": "@/assets/artwork/vendetta6.png",
+        "description": "Vendetta Image 6"
+    },
+    {
+        "id": 29,
+        "src": "@/assets/artwork/vendetta7.png",
+        "description": "Vendetta Image 7"
+    },
+    {
+        "id": 30,
+        "src": "@/assets/artwork/vendetta8.gif",
+        "description": "Vendetta Animation 8"
+    },
+    {
+        "id": 31,
+        "src": "@/assets/artwork/osaka.png",
+        "description": "Osaka Artwork"
+    },
+    {
+        "id": 32,
+        "src": "@/assets/artwork/yanami.png",
+        "description": "Yanami Character Art"
+    },
+    {
+        "id": 33,
+        "src": "@/assets/artwork/gaelio_poster.png",
+        "description": "Gaelio Poster"
+    },
+    {
+        "id": 34,
+        "src": "@/assets/artwork/nijika.png",
+        "description": "Nijika Artwork"
+    },
+    {
+        "id": 35,
+        "src": "@/assets/artwork/ryo.png",
+        "description": "Ryo Character Art"
+    },
+    {
+        "id": 36,
+        "src": "@/assets/artwork/kita.png",
+        "description": "Kita Artwork"
+    },
+    {
+        "id": 37,
+        "src": "@/assets/artwork/bocchi.png",
+        "description": "Bocchi Character Art"
+    },
+    {
+        "id": 38,
+        "src": "@/assets/artwork/kesoku.png",
+        "description": "Kesoku Artwork"
+    },
+    {
+        "id": 39,
+        "src": "@/assets/artwork/GALILEO.webp",
+        "description": "GALILEO Artwork"
+    },
+    {
+        "id": 40,
+        "src": "@/assets/artwork/status3.png",
+        "description": "Status Image 3"
+    },
+    {
+        "id": 41,
+        "src": "@/assets/artwork/status2.png",
+        "description": "Status Image 2"
+    },
+    {
+        "id": 42,
+        "src": "@/assets/artwork/status1.png",
+        "description": "Status Image 1"
+    },
+    {
+        "id": 43,
+        "src": "@/assets/artwork/inventory.png",
+        "description": "Inventory Artwork"
+    },
+    {
+        "id": 44,
+        "src": "@/assets/artwork/sicario.png",
+        "description": "Sicario Artwork"
+    },
+    {
+        "id": 45,
+        "src": "@/assets/artwork/xuanlong3.png",
+        "description": "Xuanlong Image 3"
+    },
+    {
+        "id": 46,
+        "src": "@/assets/artwork/xuanlong2.png",
+        "description": "Xuanlong Image 2"
+    },
+    {
+        "id": 47,
+        "src": "@/assets/artwork/xuanlong1.png",
+        "description": "Xuanlong Image 1"
+    },
+    {
+        "id": 48,
+        "src": "@/assets/artwork/btr.png",
+        "description": "BTR Artwork"
+    },
+    {
+        "id": 49,
+        "src": "@/assets/artwork/cadiaguard.png",
+        "description": "Cadiaguard Artwork"
+    },
+    {
+        "id": 50,
+        "src": "@/assets/artwork/fluxdefender.png",
+        "description": "Flux Defender Artwork"
+    },
+    {
+        "id": 51,
+        "src": "@/assets/artwork/cadia.png",
+        "description": "Cadia Artwork"
+    },
+    {
+        "id": 52,
+        "src": "@/assets/artwork/star2.png",
+        "description": "Star 2 Artwork"
+    },
+    {
+        "id": 53,
+        "src": "@/assets/artwork/star1.png",
+        "description": "Star 1 Artwork"
+    },
+    {
+        "id": 54,
+        "src": "@/assets/artwork/rangergreen.png",
+        "description": "Ranger Green Artwork"
+    },
+    {
+        "id": 55,
+        "src": "@/assets/artwork/karos.png",
+        "description": "Karos Artwork"
+    },
+    {
+        "id": 56,
+        "src": "@/assets/artwork/starsector.png",
+        "description": "Star Sector Artwork"
+    },
+    {
+        "id": 57,
+        "src": "@/assets/artwork/kenshi.gif",
+        "description": "Kenshi Animation"
+    },
+    {
+        "id": 58,
+        "src": "@/assets/artwork/neotokyo4.png",
+        "description": "Neotokyo Image 4"
+    },
+    {
+        "id": 59,
+        "src": "@/assets/artwork/neotokyo3.png",
+        "description": "Neotokyo Image 3"
+    },
+    {
+        "id": 60,
+        "src": "@/assets/artwork/neotokyo2.png",
+        "description": "Neotokyo Image 2"
+    },
+    {
+        "id": 61,
+        "src": "@/assets/artwork/neotokyo1.png",
+        "description": "Neotokyo Image 1"
+    },
+    {
+        "id": 62,
+        "src": "@/assets/artwork/masterofair.png",
+        "description": "Master of Air Artwork"
+    },
+    {
+        "id": 63,
+        "src": "@/assets/artwork/Serie.png",
+        "description": "Serie Artwork"
+    },
+    {
+        "id": 64,
+        "src": "@/assets/artwork/glory.gif",
+        "description": "Glory Animation"
+    },
+    {
+        "id": 65,
+        "src": "@/assets/artwork/fern.png",
+        "description": "Fern Artwork"
+    },
+    {
+        "id": 66,
+        "src": "@/assets/artwork/helldiver.gif",
+        "description": "Helldiver Animation"
+    },
+    {
+        "id": 67,
+        "src": "@/assets/artwork/cain.gif",
+        "description": "Cain Animation"
+    },
+    {
+        "id": 68,
+        "src": "@/assets/artwork/hell2.png",
+        "description": "Hell Image 2"
+    },
+    {
+        "id": 69,
+        "src": "@/assets/artwork/hell1.png",
+        "description": "Hell Image 1"
+    },
+    {
+        "id": 70,
+        "src": "@/assets/artwork/sinodia.png",
+        "description": "Sinodia Artwork"
+    },
+    {
+        "id": 71,
+        "src": "@/assets/artwork/vonarb.png",
+        "description": "Von Arb Artwork"
+    },
+    {
+        "id": 72,
+        "src": "@/assets/artwork/tactical-doodle2.png",
+        "description": "Tactical Doodle 2 Artwork"
+    },
+    {
+        "id": 73,
+        "src": "@/assets/artwork/tactical-doodle1.png",
+        "description": "Tactical Doodle 1 Artwork"
+    },
+    {
+        "id": 74,
+        "src": "@/assets/artwork/vip.png",
+        "description": "VIP Artwork"
+    },
+    {
+        "id": 75,
+        "src": "@/assets/artwork/Frieren.png",
+        "description": "Frieren Artwork"
+    },
+    {
+        "id": 76,
+        "src": "@/assets/artwork/blame.png",
+        "description": "Blame Artwork"
+    },
+    {
+        "id": 77,
+        "src": "@/assets/artwork/grass.png",
+        "description": "Grass Artwork"
+    },
+    {
+        "id": 78,
+        "src": "@/assets/artwork/tree2.png",
+        "description": "Tree 2 Artwork"
+    },
+    {
+        "id": 79,
+        "src": "@/assets/artwork/tree1.png",
+        "description": "Tree 1 Artwork"
+    },
+    {
+        "id": 80,
+        "src": "@/assets/artwork/wakeup.png",
+        "description": "Wake Up Artwork"
+    },
+    {
+        "id": 81,
+        "src": "@/assets/artwork/afterschool.png",
+        "description": "After School Artwork"
+    },
+    {
+        "id": 82,
+        "src": "@/assets/artwork/signalisposter.png",
+        "description": "Signalis Poster"
+    },
+    {
+        "id": 83,
+        "src": "@/assets/artwork/planetcracker.png",
+        "description": "Planet Cracker Artwork"
+    },
+    {
+        "id": 84,
+        "src": "@/assets/artwork/yurucamp.png",
+        "description": "Yuru Camp Artwork"
+    },
+    {
+        "id": 85,
+        "src": "@/assets/artwork/calied.png",
+        "description": "Calied Artwork"
+    },
+    {
+        "id": 86,
+        "src": "@/assets/artwork/afterworkJill.png",
+        "description": "After Work Jill Artwork"
+    },
+    {
+        "id": 87,
+        "src": "@/assets/artwork/deadstranding.png",
+        "description": "Dead Stranding Artwork"
+    },
+    {
+        "id": 88,
+        "src": "@/assets/artwork/provision.gif",
+        "description": "Provision Animation"
+    },
+    {
+        "id": 89,
+        "src": "@/assets/artwork/undertheerdtree.gif",
+        "description": "Under the Erdtree Animation"
+    },
+    {
+        "id": 90,
+        "src": "@/assets/artwork/school-festival.gif",
+        "description": "School Festival Animation"
+    },
+    {
+        "id": 91,
+        "src": "@/assets/artwork/frameshiftdrive.png",
+        "description": "Frame Shift Drive Artwork"
+    },
+    {
+        "id": 92,
+        "src": "@/assets/artwork/fujikyukon.png",
+        "description": "Fujikyukon Artwork"
+    },
+    {
+        "id": 93,
+        "src": "@/assets/artwork/poppy.png",
+        "description": "Poppy Artwork"
+    },
+    {
+        "id": 94,
+        "src": "@/assets/artwork/river.png",
+        "description": "River Artwork"
+    },
+    {
+        "id": 95,
+        "src": "@/assets/artwork/cherrycity.png",
+        "description": "Cherry City Artwork"
+    },
+    {
+        "id": 96,
+        "src": "@/assets/artwork/trainride.gif",
+        "description": "Train Ride Animation"
+    },
+    {
+        "id": 97,
+        "src": "@/assets/artwork/office.png",
+        "description": "Office Artwork"
+    },
+    {
+        "id": 98,
+        "src": "@/assets/artwork/7-11.png",
+        "description": "7-11 Artwork"
+    },
+    {
+        "id": 99,
+        "src": "@/assets/artwork/milktea.png",
+        "description": "Milk Tea Artwork"
+    },
+    {
+        "id": 100,
+        "src": "@/assets/artwork/onsen.png",
+        "description": "Onsen Artwork"
+    },
+    {
+        "id": 101,
+        "src": "@/assets/artwork/combini.png",
+        "description": "Combini Artwork"
+    },
+    {
+        "id": 102,
+        "src": "@/assets/artwork/coffeshop.png",
+        "description": "Coffee Shop Artwork"
     }
 ]

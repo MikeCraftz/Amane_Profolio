@@ -164,4 +164,10 @@ export default {
   box-sizing: border-box;
   width: 100%;
 }
+
+.grid {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1200px;
+}
 </style>
