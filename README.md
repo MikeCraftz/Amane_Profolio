@@ -9,6 +9,5 @@ https://mikecraftz.github.io/Amane_Profolio/
 Build by vue+primevue as the UI library. Hosted using github page.
 
 ## TODO
-- List out itch.io games
 - Upload all my art
     - Art are loaded in json format at ``` assets/artwork_list.json```
