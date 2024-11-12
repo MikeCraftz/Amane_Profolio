@@ -72,8 +72,26 @@
 
     <div class="section">
       <h2>Indie Game Project</h2>
-      <p>Recesses</p>
-      <p>Let's feed Yanami!</p>
+      <h3>Recesses</h3>
+      <p>An entry to the HK Game Jam Club Round 2</p>
+      <iframe
+      frameborder="0"
+      :src="`https://itch.io/embed/3045034?bg_color=${iframeBackgroundColor}&border_color=${iframeBorderColor}&fg_color=${iframeTextColor}`"
+      width="552"
+      height="167"
+      >
+      <a href="https://amanechow.itch.io/recesses-hk-gamjam">Recesses by AmaneChow, Pippin, Archiba+</a>
+      </iframe>
+      <h3>Let's feed Yanami!</h3>
+      <p>An small fan game to the novel/anime Too Many Losing Heroin!, Let's feed the sea otter lol.</p>
+      <iframe
+      frameborder="0"
+      :src="`https://itch.io/embed/2983124?bg_color=${iframeBackgroundColor}&border_color=${iframeBorderColor}&fg_color=${iframeTextColor}`"
+      width="552"
+      height="167"
+      >
+      <a href="https://amanechow.itch.io/recesses-hk-gamjam">Recesses by AmaneChow, Pippin, Archiba+</a>
+      </iframe>
     </div>
     <div class="section">
       <h2>Featured Art</h2>
@@ -100,6 +118,15 @@ export default {
   computed: {
     cardThemeToggle() {
       return this.$root.theme === 'dark-mode' ? 'dark-card' : 'light-card';
+    },
+    iframeBackgroundColor() {
+      return this.$root.theme === 'dark-mode' ? '333333' : 'e4a672';
+    },
+    iframeBorderColor() {
+      return this.$root.theme === 'dark-mode' ? '363636' : 'b86f50';
+    },
+    iframeTextColor() {
+      return this.$root.theme === 'dark-mode' ? 'eeeeee' : '222222';
     }
   },
   components: {
