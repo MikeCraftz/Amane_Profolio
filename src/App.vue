@@ -74,7 +74,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 10px;
   margin-top: 100px;
 }
 
@@ -111,6 +111,7 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .menu-bar li {

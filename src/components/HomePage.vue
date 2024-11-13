@@ -69,9 +69,10 @@
           </ul>
       </template>
     </Card>
-
-    <div class="section">
-      <h2>Indie Game Project</h2>
+    <p></p>
+    <Card class="title-card" :class="cardThemeToggle">
+      <template #title><h2>Indie Game Project</h2></template>
+      <template #content>
       <h3>Recesses</h3>
       <p>An entry to the HK Game Jam Club Round 2</p>
       <iframe
@@ -92,16 +93,22 @@
       >
       <a href="https://amanechow.itch.io/recesses-hk-gamjam">Recesses by AmaneChow, Pippin, Archiba+</a>
       </iframe>
-    </div>
-    <div class="section">
+    </template>
+    </Card>
+    <p></p>
+    <Card class="title-card" :class="cardThemeToggle">
+      <template #title>
       <h2>Featured Art</h2>
-      <div class="tiles-grid">
-        <div class="tile" v-for="art in featuredArt" :key="art.id">
-          <img :src="art.src" :alt="art.title" @click="goToGallery" />
+      </template>
+      <template #content>
+        <div class="tiles-grid">
+          <div class="tile" v-for="art in featuredArt" :key="art.id">
+            <img :src="art.src" :alt="art.title" @click="goToGallery" />
+          </div>
         </div>
-      </div>
+      </template>
+    </Card>
     </div>
-  </div>
 </template>
 <script>
 import Card from 'primevue/card';
@@ -120,7 +127,7 @@ export default {
       return this.$root.theme === 'dark-mode' ? 'dark-card' : 'light-card';
     },
     iframeBackgroundColor() {
-      return this.$root.theme === 'dark-mode' ? '333333' : 'e4a672';
+      return this.$root.theme === 'dark-mode' ? '444444' : 'e4a672';
     },
     iframeBorderColor() {
       return this.$root.theme === 'dark-mode' ? '363636' : 'b86f50';
@@ -194,5 +201,9 @@ export default {
 
 .custom-lists li {
   margin-bottom: 1rem;
+}
+
+.container {
+  margin: 0 auto;
 }
 </style>
