@@ -1,6 +1,16 @@
 [
     {
         "id": 1,
+        "src": "@/assets/artwork/brenL4.png",
+        "description": "Bren L6 x t.62"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/portOfMessina.png",
+        "description": "Port of Messina - Kingdom of Heavenw"
+    },
+    {
+        "id": 1,
         "src": "@/assets/artwork/occult.png",
         "description": "Occult Warfare"
     },
