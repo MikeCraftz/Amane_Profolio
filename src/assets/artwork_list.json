@@ -1,13 +1,28 @@
 [
     {
         "id": 1,
+        "src": "@/assets/artwork/saya.png",
+        "description": "Saya - Usuzumi No Hate"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/nvg.png",
+        "description": "Night Vision Goggles"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/seven_eleven_food.png",
+        "description": "7-11 food"
+    },
+    {
+        "id": 1,
         "src": "@/assets/artwork/brenL4.png",
-        "description": "Bren L6 x t.62"
+        "description": "Bren L4"
     },
     {
         "id": 1,
         "src": "@/assets/artwork/portOfMessina.png",
-        "description": "Port of Messina - Kingdom of Heavenw"
+        "description": "Port of Messina - Kingdom of Heaven"
     },
     {
         "id": 1,
@@ -22,7 +37,7 @@
     {
         "id": 3,
         "src": "@/assets/artwork/trauma1.webp",
-        "description": "Trauma Team International, Fan art of Cyberpunk 2077"
+        "description": "Trauma Team International, Fan art of Cyberpunk 2077 (CRT effect)"
     },
     {
         "id": 4,
@@ -32,72 +47,72 @@
     {
         "id": 5,
         "src": "@/assets/artwork/stalkerguns.png",
-        "description": "Stalker Guns"
+        "description": "Guns in Stalker"
     },
     {
         "id": 6,
         "src": "@/assets/artwork/teshima.png",
-        "description": "Teshima Artwork"
+        "description": "Teshima Art Museum"
     },
     {
         "id": 7,
         "src": "@/assets/artwork/Ankunft.png",
-        "description": "Ankunft"
+        "description": "Ankunft - Concept Art of Signalis:REDFRONT"
     },
     {
         "id": 8,
         "src": "@/assets/artwork/star_armour.png",
-        "description": "Star Armour"
+        "description": "Star Armour Upgrade Module - Concept Art of Signalis:REDFRONT"
     },
     {
         "id": 9,
         "src": "@/assets/artwork/l1a1.gif",
-        "description": "L1A1 Rifle Animation"
+        "description": "L1A1 Rifle"
     },
     {
         "id": 10,
         "src": "@/assets/artwork/yamada.png",
-        "description": "Yamada Character Art"
+        "description": "Yamada Trail - Kobe"
     },
     {
         "id": 11,
         "src": "@/assets/artwork/galaxy.png",
-        "description": "Galaxy Scene"
+        "description": "Galaxy"
     },
     {
         "id": 12,
         "src": "@/assets/artwork/otter.png",
-        "description": "Cute Otter"
+        "description": "Yanami Fan art"
     },
     {
         "id": 13,
         "src": "@/assets/artwork/shaman.gif",
-        "description": "Shaman Animation"
+        "description": "Shaman Village - Elden Ring SoTE"
     },
     {
         "id": 14,
         "src": "@/assets/artwork/staccato.png",
-        "description": "Staccato Artwork"
+        "description": "Staccato"
     },
     {
         "id": 15,
         "src": "@/assets/artwork/Usuzumi.png",
-        "description": "Usuzumi Character Art"
+        "description": "Usuzumi No Hate"
     },
     {
         "id": 16,
         "src": "@/assets/artwork/admin.webp",
-        "description": "Admin Artwork"
+        "description": "Administratum Clerk - Portrait"
     },
     {
         "id": 17,
         "src": "@/assets/artwork/police2.png",
-        "description": "Police Artwork 2"
+        "description": "Enforcer Constable - Portrait"
     },
     {
         "id": 18,
         "src": "@/assets/artwork/police1.webp",
-        "description": "Police Artwork 1"
+        "description": "Enforcer Constable - Portrait"
     },
     {
         "id": 19,
