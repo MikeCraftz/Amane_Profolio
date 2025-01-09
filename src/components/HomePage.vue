@@ -117,8 +117,8 @@ export default {
   data() {
     return {
       featuredArt: [
-        { id: 1, title: 'Occult Warfare', src: require('@/assets/artwork/occult.png') },
-        { id: 2, title: 'Occult Warfare', src: require('@/assets/artwork/trauma2.png') }
+        { id: 1, title: 'Project Wingman - Cold War', src: require('@/assets/artwork/coldwar1.png') },
+        { id: 2, title: 'Linear Accelerator', src: require('@/assets/artwork/acce.png') }
       ]
     };
   },

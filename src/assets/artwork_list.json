@@ -1,6 +1,51 @@
 [
     {
         "id": 1,
+        "src": "@/assets/artwork/acce.png",
+        "description": "Linear Accelerator"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/python_2025.png",
+        "description": "Project Wingman - 2025 Happy New Year"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/coldwar2.png",
+        "description": "Project Wingman - Cold War"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/coldwar1.png",
+        "description": "Project Wingman - Cold War"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/blaze.png",
+        "description": "Project Wingman - Authenticate: Blaze. Read back."
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/GPNVG.png",
+        "description": "GPNVG"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/flux.png",
+        "description": "Flux Legion"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/backblast.png",
+        "description": "Back Blast Check"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/melina.png",
+        "description": "Elden Ring - Melina"
+    },
+    {
+        "id": 1,
         "src": "@/assets/artwork/saya.png",
         "description": "Saya - Usuzumi No Hate"
     },
