@@ -1,4 +1,74 @@
-[
+[  
+    {
+        "id": 1,
+        "src": "@/assets/artwork/presidia.png",
+        "description": "Project Wingman - Sirens of Defeat"
+    },  
+    {
+        "id": 1,
+        "src": "@/assets/artwork/frontier.png",
+        "description": "Project Wingman - Frontier"
+    },  
+    {
+        "id": 1,
+        "src": "@/assets/artwork/magadan.png",
+        "description": "Project Wingman - Magadan Front"
+    },  
+    {
+        "id": 1,
+        "src": "@/assets/artwork/choi_hung.png",
+        "description": "Choi Hung Estate"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/trench_crusade.png",
+        "description": "Trench Crusade - Artillery Witch"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/signalis_shotgun_bg.png",
+        "description": "Signalis Shotgun"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/signalis_shotgun_clean.png",
+        "description": "Signalis Shotgun"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/shotgun.png",
+        "description": "Shotgun - testing with Pixquare"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/openseasons.png",
+        "description": "Project Wingman - Open Season"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/redsea.png",
+        "description": "Project Wingman - Red Sea"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/T89.png",
+        "description": "Type 89 Infantry Assault Rifle"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/sisterofbattle.png",
+        "description": "Adepta Sororitas dress vestments"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/spear.png",
+        "description": "Project Wingman - Experimental Air Frame SP34R"
+    },
+    {
+        "id": 1,
+        "src": "@/assets/artwork/m1911.png",
+        "description": "Colt M1911 Government"
+    },
     {
         "id": 1,
         "src": "@/assets/artwork/acce.png",
@@ -7,7 +77,7 @@
     {
         "id": 1,
         "src": "@/assets/artwork/python_2025.png",
-        "description": "Project Wingman - 2025 Happy New Year"
+        "description": "2025 Happy New Year"
     },
     {
         "id": 1,

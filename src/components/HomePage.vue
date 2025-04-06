@@ -73,6 +73,15 @@
     <Card class="title-card" :class="cardThemeToggle">
       <template #title><h2>Indie Game Project</h2></template>
       <template #content>
+      <h3>I really like working 我真係好鍾意返工</h3>
+      <p>An entry to the HK Game Jam Club Round 3</p>
+      <iframe frameborder="0" 
+      :src="`https://itch.io/embed/3431088?bg_color=${iframeBackgroundColor}&border_color=${iframeBorderColor}&fg_color=${iframeTextColor}`" 
+      width="552" 
+      height="167"
+      >
+      <a href="https://amanechow.itch.io/unfair-hk-gamejam">我真係好鍾意返工呀 I really like working by AmaneChow, Archiba+, Alex</a>
+      </iframe>
       <h3>Recesses</h3>
       <p>An entry to the HK Game Jam Club Round 2</p>
       <iframe
@@ -117,8 +126,8 @@ export default {
   data() {
     return {
       featuredArt: [
-        { id: 1, title: 'Project Wingman - Cold War', src: require('@/assets/artwork/coldwar1.png') },
-        { id: 2, title: 'Linear Accelerator', src: require('@/assets/artwork/acce.png') }
+        { id: 1, title: 'Project Wingman - Sirens of Defeat', src: require('@/assets/artwork/presidia.png') },
+        { id: 2, title: 'Signalis Shotgun', src: require('@/assets/artwork/signalis_shotgun_clean.png') }
       ]
     };
   },
